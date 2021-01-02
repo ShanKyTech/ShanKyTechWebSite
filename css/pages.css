@@ -5,18 +5,22 @@
 }
 .opinion-page{
     display: grid;
-    font-size: 25px; 
-    margin: 120px auto 30px;     
+    font-size: 20px; 
+    margin: 120px auto 20px;     
     justify-content: center;
     justify-items: center;
 }
 
 .opinion-container{
-    max-width: 768px;   
+    max-width: 1024px;   
     margin: 0 70px; 
 }
 .opinion-header {
     padding-bottom: 25px;
+}
+
+.opinion-title{
+    padding-bottom: 8px;
 }
 .opinion-author {
     font-style: italic;
@@ -39,31 +43,30 @@
     padding-bottom: 15px;
 }
 .opinion-container h3 {
-    padding-bottom: 15px;
+    padding: 0 15px;
     margin: 20px 0;
 }
 .opinion-container h4 {
-    width: 60%;
-    padding-right: 20px;
     padding-bottom: 15px;
-    margin: 18px 0;
 }
 
 @media(max-width: 500px){
+    .opinion-container{
+        margin: 0 16px;
+    }
     .opinion-page{
-        font-size: 18px;
+        font-size: 16px;
     }
     .opinion-container img{
-        width: 80%;
-        padding-left: 20px;
+        width: 100%;
     }
     .opinion-container p{
-        padding: 0 18px 18px;
+        padding-bottom: 18px;
     }
 }
 
 @media(max-width: 700px){
     .opinion-page{
-        font-size: 22px;
+        font-size: 18px;
     }
 }
