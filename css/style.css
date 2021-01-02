@@ -480,7 +480,7 @@ nav .icon-burger .line {
 }
 @media (max-width: 620px) {
   .portfolio-wrapper {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -533,7 +533,7 @@ nav .icon-burger .line {
     margin-bottom: 20px;
   }
   .about-me__text {
-    width: 80%;
+    width: 70%;
     margin: 0 10px;
   }
 }
@@ -696,7 +696,7 @@ nav .icon-burger .line {
     padding-bottom: 0;
   }
   .about-me-slider{
-    margin: 0 40px;
+    margin: 0;
   }
   .opinion-heading {
     padding-top: 60px;
@@ -847,17 +847,11 @@ nav .icon-burger .line {
   }
 }
 .footer-info .footer-info__right p {
-  margin-bottom: 15px;
-  color: rgb(139, 158, 187);
+  margin-bottom: 10px;
+  color: rgb(103, 144, 206);
 }
 
-.footer-info .footer-info__right p span{
-  color:rgb(223, 211, 211);
-  font-size: 16px;
-}
-.footer-info .footer-info__right .footer-phone {
-  font-size: 15px;
-}
+
 .footer-info .footer-info__right .social-icons {
   margin-top: 27px;
 }
