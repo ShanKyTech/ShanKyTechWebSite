@@ -251,16 +251,15 @@
 				</div>
 				<div class="footer-contact-form" id="contactform">
 					<h5>Contact Form</h5>
-					<div class="alert">Your Message has been sent</div>
-					<form action="POST" method="POST" data-netlify="true" class="contact-form">
+					<div class="alert">Your Message has been sent.</div>
+					<form method="POST" action="/#contactform" data-netlify="true" class="contact-form">
 						<div class="contact-form__input">
 							<input type="text" class="name" name="name" placeholder="Name" id="name" required>
-							<input type="text" class="email" name="email" placeholder="Email" id="email" required>
+							<input type="email" class="email" name="email" placeholder="Email" id="email" required>
 						</div>
 						<div>
-						<textarea name="message" class="message" placeholder="Message" id="message" required></textarea>
+						<textarea name="message" class="message" placeholder="Message" id="message"></textarea>
 						</div>
-						<div data-netlify-recaptcha="true"></div>
 						<input type="submit" name="submit" value="Submit" class="submit-button">
 					</form>
 				</div>
@@ -273,8 +272,7 @@
 		</div>
 	</footer>
 	<!-- Footer end -->
-	<!--  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
-	<script src="js/main.js"></script>   -->
+	
 	<script src="js/script.js"></script>
 </body>
 </html>
