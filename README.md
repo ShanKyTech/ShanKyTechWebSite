@@ -12,6 +12,8 @@ This project is built using:
 
 ---
 Responsive Web Design
+---
 Grid-CSS layout
+---
 Flexbox layout
-...
+---
