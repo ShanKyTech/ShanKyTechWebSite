@@ -173,7 +173,7 @@ nav .icon-burger .line {
   position: relative;
   display: flex;
   align-items: flex-end;
-  background-image: url('../images/aw.jpg');
+  background-image: url('../images/top-banner-bckg.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -358,7 +358,7 @@ nav .icon-burger .line {
 
 .about-me-bckg {
   position: absolute;
-  background-image: url('../images/aaa.png');
+  background-image: url('../images/about-me-bckg.png');
   background-position: center;
   background-size: cover;
   height: 500px;
@@ -623,7 +623,7 @@ nav .icon-burger .line {
   position: relative;
   padding: 80px 0 19px;
   text-align: center;
-  background-image: url('../images/abc.jpeg');
+  background-image: url('../images/skills-bckg.jpeg');
   background-position: center;
   background-size: cover;
 }
@@ -731,7 +731,7 @@ nav .icon-burger .line {
   display: flex; 
   position: relative;
   padding: 40px 0;
-  background-image: url('../images/books.jpg');
+  background-image: url('../images/socials-bckg.jpg');
   background-size: cover;
   background-position: cover;
 }
